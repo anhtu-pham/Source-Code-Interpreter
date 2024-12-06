@@ -1,0 +1,23 @@
+var a = 5;
+var b = 5;
+
+for(var i = 0; i < 10; i = i + 1) {
+  print i;
+}
+
+var i = 0;
+while (i < 10) {
+  print i;
+  i = i + 1;
+}
+
+
+if (a == b & 5 == 5) {
+  print "They are equal";
+  if (5 == 5) {
+    print "5 is equal to 5";
+  }
+}
+else {
+  print "They are not!";
+}
